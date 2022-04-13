@@ -1,0 +1,15 @@
+.filter-container {
+  margin-top: 40px;
+  height: 130px;
+  padding: 40px;
+  align-items: center;
+}
+
+.filter-input {
+  padding: 15px;
+  height: 50px;
+  width: 270px;
+  border-radius: 4px;
+  color: var(--light-color);
+  font-size: 16px;
+}
