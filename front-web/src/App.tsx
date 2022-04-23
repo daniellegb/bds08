@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Filter from './components/filter';
 import Header from './components/header';
-import PieChartCard from './components/pie-chart-card';
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
       <Header />
       <div className="app-container">
         <Filter />
-        <PieChartCard name="" labels={['Feminino', 'Masculino', 'Outro']} series={[40, 30, 30]} />
       </div>
     </>
   );

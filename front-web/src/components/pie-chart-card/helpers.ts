@@ -45,7 +45,7 @@ export const buildPieChartConfig = (labels: string[] = [], name: string) => {
             total: {
               show: true,
               showAlways: true,
-              fontSize: '24px',
+              fontSize: '16px',
               color: '#ABB1C0',
               formatter: function () {
                 return '';
