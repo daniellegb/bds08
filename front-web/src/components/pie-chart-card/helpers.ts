@@ -56,7 +56,7 @@ export const buildPieChartConfig = (labels: string[] = [], name: string) => {
       }
     },
     chart: {
-      height: '400px'
+      height: '150px'
     }
   } as ApexOptions;
 };

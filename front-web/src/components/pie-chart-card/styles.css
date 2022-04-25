@@ -1,7 +1,12 @@
 .pie-chart-card {
   margin-top: 40px;
   padding: 40px;
-  height: 517px;
+  height: 520px;
+  flex-direction: column;
+}
+
+.apex-chart {
+  height: 100px;
 }
 
 .pie-price{
@@ -14,6 +19,7 @@
   font-weight: 400;
   font-size: 18px;
   color: var(--light-color);
+  padding-bottom: 40px;
 }
 
 .pie-option-text{
@@ -23,10 +29,28 @@
 }
 
 .apexcharts-legend {
-  padding-top:40px;
+  padding-top: 40px;
   flex-direction: column;
   align-items: center;
   font-weight: 400;
   font-size: 16px;
   color: var(--light-color);
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+  .pie-chart-card {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1200px) {
+
 }
