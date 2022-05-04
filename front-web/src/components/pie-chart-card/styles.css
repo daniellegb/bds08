@@ -47,10 +47,22 @@
 
 @media (min-width: 992px) {
   .pie-chart-card {
-    flex-direction: row-reverse;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 450px 450px;
+  }
+
+  .pie-info {
+    padding-left: 20px;
+  }
+
+  .apex-chart {
+    margin-top: -250px;
   }
 }
 
 @media (min-width: 1200px) {
-
+  .base-card {
+    padding-left: 80px;
+  }
 }

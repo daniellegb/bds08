@@ -31,8 +31,8 @@ function PieChartCard({ labels = [], name, series = [], storeId }: Props) {
 
   return (
     <div className="base-card">
-      <div className="pie-chart-card flex">
-        <div>
+      <div className="pie-chart-card">
+        <div className="pie-info">
           <h1 className="pie-price">R$ {formatPrice(storeSummary?.sum)}</h1>
           <h2 className="pie-text">Total de vendas</h2>
         </div>
